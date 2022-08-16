@@ -60,8 +60,7 @@ let dataSeconds = document.querySelector('[data-seconds]');
 const getDifference = () => {
   const todayTime = new Date().getTime();
   const difference = selectedDate.getTime() - todayTime;
-  //console.log(convertMs(difference));//
-  //console.log(difference);//
+
   if (difference < 1000) {
     clearInterval(timerId);
   }

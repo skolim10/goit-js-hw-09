@@ -26,6 +26,7 @@ function convertMs(ms) {
 
   return { days, hours, minutes, seconds };
 }
+let selectedDate = null;
 
 const options = {
   enableTime: true,
